@@ -1,0 +1,26 @@
+# Virtual Environment
+penv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local Vector Database (Don't upload your indexed data)
+policy_db/
+chroma/
+
+# Hide the specific SQLite database file
+chroma.sqlite3
+
+# Environment variables/OS files
+.env
+.DS_Store
+
+# Hide specific experiment/test files
+Policy Q&A Bot with Grounded Citations.ipynb
+test_fix.py
+
+# Hide requirements since I don't need them
+requirements.txt
